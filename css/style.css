@@ -89,14 +89,14 @@
     
 }
 .middle .middleBack{
-    padding-right: 1.5rem;
+    padding-right: 4rem;
     cursor: pointer;
 
 }
 
 
 .middle .middleNext{
-    padding-left: 1.5rem;
+    padding-left: 4rem;
     cursor: pointer;
 
 }
