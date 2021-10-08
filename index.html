@@ -20,17 +20,29 @@
                 <p class="startP chgP"></p>
             </div>
             <div class="middle">
-                <img class="middleBack" src="images/keyboard_backspace_white_24dp.svg" alt="">
+                <img class="middleBack" src="images/keyboard_backspace_white_24dp.svg" onclick="changeBgColor('pink'); imgSlider('videos/pexels-anthony-shkraba-7185652.mp4'); boxSlider('rgb(226, 58, 86)')">
                 <p class="middleP chgM">curret</p>
-                <img class="middleNext" src="images/east_white_24dp.svg" alt="">
+                <img class="middleNext" src="images/east_white_24dp.svg" onclick="changeBgColor('#1f2020'); imgSlider('videos/pexels-tima-miroshnichenko-5716913.mp4'); boxSlider('blue')">
             </div>
-            <div class="toggle">
-                <img class="menu" src="images/menu_white_24dp.svg" alt="">
+            <div class="toggle active">
+                <img class="menu" src="images/menu_white_24dp.svg" onclick="iconSlider('images/close_white_24dp.svg')">
             </div>
         </header>
 
-        <video src="videos/pexels-tima-miroshnichenko-5716913.mp4" muted loop autoplay></video>
+        <video class="bg" src="videos/pexels-tima-miroshnichenko-5716913.mp4" muted loop autoplay></video>
         <div class="overlay"></div>
+
+        <section class="container" >
+            <div class="text" data-aos="fade-up">
+                <h2>Business</h2>
+                <div class="btn">
+                    <img class="downBtn" src="/images/south_white_24dp.svg">
+                </div>
+            </div>
+            <div class="box" data-aos="fade-down">
+                <p>Lorem Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum impedit harum nobis fugit quos rem nesciunt similique eum excepturi facere. ipsum dolor sit amet consectetur, adipisicing elit. Minima temporibus at voluptate incidunt maiores dignissimos magnam qui quia eos, animi esse possimus, odit commodi impedit ut placeat aliquam culpa cupiditate?</p>
+            </div>
+        </section>
         
     </section>
 

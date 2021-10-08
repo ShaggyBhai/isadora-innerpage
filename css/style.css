@@ -41,10 +41,12 @@
 }
 .start img {
     padding: 0 5px 0 20px;
+    cursor: pointer;
 }
 
 .startP{
     display: inline-block;
+    cursor: pointer;
     
     
     
@@ -88,17 +90,19 @@
 }
 .middle .middleBack{
     padding-right: 1.5rem;
+    cursor: pointer;
 
 }
 
 
 .middle .middleNext{
     padding-left: 1.5rem;
+    cursor: pointer;
 
 }
 .toggle {
     position: relative;
-   
+    
     cursor: pointer;
 }
 .toggle .menu{
@@ -122,4 +126,89 @@
     height: 100%;
     background: #1f2020;
     mix-blend-mode: overlay;
+}
+
+.container{
+    
+    z-index: 5;
+    
+    
+    margin-left: 5rem;
+    margin-top: 5rem;
+    transition: .5s;
+    
+}
+.container .text{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    
+    top: 40%;
+    left: 40%;
+    transition: .5s;
+
+}
+.container .text h2{
+    font-size: 4rem;
+    text-align: center;
+}
+.container .box {
+    
+    background: blue;
+    
+    
+    width: 22rem;
+    
+    height: 30rem;
+    z-index: 5;
+    
+    
+
+    
+}
+.container .box p{
+    text-align: center;
+    font-size: 1rem;
+    
+    padding: 100px 25px ;
+    line-height: 2rem;
+    color: #fff;
+}
+.btn{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 13rem;
+    
+    
+    
+}
+.btn .downBtn{
+    width: 4rem;
+    background: rgb(90, 96, 102) ;
+    mix-blend-mode: overlay;
+    border-radius: 50%; 
+    animation: animate .5s linear infinite;  
+    cursor: pointer;
+    
+}
+@keyframes animate 
+{
+    0%{
+        
+        top: 0%;
+        transform: translateY(3px);
+    }
+    33%{
+        transform: translateY(3px);
+    }
+    66% {
+        transform: translateY(-3px);
+     }
+    100%
+    {
+        top: 100%;
+        transform: translateY(-3px);
+    }
 }
