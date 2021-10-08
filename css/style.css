@@ -189,7 +189,7 @@
     background: rgb(90, 96, 102) ;
     mix-blend-mode: overlay;
     border-radius: 50%; 
-    animation: animate .5s linear infinite;  
+    animation: animate .4s linear infinite;  
     cursor: pointer;
     
 }
